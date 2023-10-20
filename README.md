@@ -26,7 +26,7 @@ The code consists of eight steps that are as follows:
 To schedule doctors of the surgical department at MRI for any chosen month, the following steps are
 necessary:
 
-Define minimum and maximum number of shifts per doctor or assign priorities to each doctor by defining
+1. Define minimum and maximum number of shifts per doctor or assign priorities to each doctor by defining
 them in the employee_priorities, whereby  higher priorities indicate doctors to be assigned to
 more shifts than others.
 Scale the following variables, arrays, and matrices to the number of doctors to be scheduled:
@@ -38,7 +38,7 @@ qualification_matrix
 employee_offdays_preference_matrix
 
 
-Scale the following variables, arrays, and matrices to the number of days of the considered month:
+2. Scale the following variables, arrays, and matrices to the number of days of the considered month:
 
 number_weekdays
 number_weekendholidays
@@ -47,40 +47,40 @@ employee_availability_matrix_wholedays
 employee_offdays_preference_matrix
 
 
-Define the entries of the day-shift-matrix acccording to the types of days of the considered month,
+3. Define the entries of the day-shift-matrix acccording to the types of days of the considered month,
 i.e. the distribution of weekdays, weekends, and public holidays within the month.
 Enter the data (Note: to input data more easily, especially into big matrices, it is suggested to add
 extra lines of comment in the code, containing indices of days and doctors).
 
-minimum and maximum number of shifts per doctor into max_shifts_per_employee and
+- minimum and maximum number of shifts per doctor into max_shifts_per_employee and
 min_shifts_per_employee
 
-doctor availabilities into employee_availability_matrix_wholedays
+- doctor availabilities into employee_availability_matrix_wholedays
 
-doctor qualifications into employee_qualification_matrix
+- doctor qualifications into employee_qualification_matrix
 
-doctor off-day preferences into employee_offdays_preference_matrix
+- doctor off-day preferences into employee_offdays_preference_matrix
 
-doctor job preferences into employee_jobs_preference_matrix
+- doctor job preferences into employee_jobs_preference_matrix
 
 
 
 
 The output of the code is as follows:
 
-Employee-job-calculation matrix and job restrictions
-Overall schedule
-Number of each shift per employee
-Number of working hours per employee
-Total off-day preference score (number of total fulfilled preferences for off-days = first part of the
+1. Employee-job-calculation matrix and job restrictions
+2. Overall schedule
+3. Number of each shift per employee
+4. Number of working hours per employee
+5. Total off-day preference score (number of total fulfilled preferences for off-days = first part of the
 objective)
-Individual off-day preference score per employee
-Maximum individual off-day preference per employee (= number of submitted off-day preferences)
-Individual and total percentage of fulfilled off-day preferences
-Total job preference score (number of total fulfilled preferences for jobs = second part of the
+6. Individual off-day preference score per employee
+7. Maximum individual off-day preference per employee (= number of submitted off-day preferences)
+8. Individual and total percentage of fulfilled off-day preferences
+9. Total job preference score (number of total fulfilled preferences for jobs = second part of the
 objective)
-Individual job preference score per employee
-Maximum individual job preference score per employee (= number of submitted job preferences)
-Individual and total percentage of fulfilled job preferences
-Individual schedule of each employee
-Overview of total number and percentage of fulfilled off-day and job preferences
+10. Individual job preference score per employee
+11. Maximum individual job preference score per employee (= number of submitted job preferences)
+12. Individual and total percentage of fulfilled job preferences
+13. Individual schedule of each employee
+14. Overview of total number and percentage of fulfilled off-day and job preferences
