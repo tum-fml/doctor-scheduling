@@ -1,7 +1,8 @@
 # doctor-scheduling
 Code related to the paper "Human-centered algorithmic physician scheduling in hospitals"
 
-About the study
+About the study:
+
 The study intends to detect potential for improvement in scheduling doctors in hospitals.
 For this purpose, an algorithm is developed utilizing Constraint Programming, to schedule doctors in the
 surgical department and Munich's hospital rechts der Isar (MRI).
