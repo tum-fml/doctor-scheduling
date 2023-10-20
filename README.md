@@ -14,14 +14,14 @@ code via comments. For any related questions feel free to contact Natalie Wagner
 or Charlotte Haid (charlotte.haid@tum.de).
 The code consists of eight steps that are as follows:
 
-Input data definition
-Model creation via cp_model.CpModel()
-Decision variable creation via model.NewBoolVar()
-General constraints generation via model.Add()
-Specific constraints generation via model.Add()
-Objective formulation and maximization via model.Maximize()
-Problem solver application via solver = cp_model.CpSolver() and solver.Solve(model)
-Solution (output) printing
+1. Input data definition
+2. Model creation via cp_model.CpModel()
+3. Decision variable creation via model.NewBoolVar()
+4. General constraints generation via model.Add()
+5. Specific constraints generation via model.Add()
+6. Objective formulation and maximization via model.Maximize()
+7. Problem solver application via solver = cp_model.CpSolver() and solver.Solve(model)
+8. Solution (output) printing
 
 To schedule doctors of the surgical department at MRI for any chosen month, the following steps are
 necessary:
